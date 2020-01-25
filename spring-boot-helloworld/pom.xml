@@ -8,6 +8,20 @@
 		<version>2.2.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
+<!--	<repositories>-->
+<!--		<repository>-->
+<!--			<id>spring-releases</id>-->
+<!--			<url>https://repo.spring.io/libs-release</url>-->
+<!--		</repository>-->
+<!--	</repositories>-->
+<!--	<pluginRepositories>-->
+<!--		<pluginRepository>-->
+<!--			<id>spring-releases</id>-->
+<!--			<url>https://repo.spring.io/libs-release</url>-->
+<!--		</pluginRepository>-->
+<!--	</pluginRepositories>-->
+
 	<groupId>com.example</groupId>
 	<artifactId>spring-boot-helloworld</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -23,6 +37,14 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot</artifactId>
+			<version>2.2.4.RELEASE</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
